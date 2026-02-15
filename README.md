@@ -3,55 +3,55 @@
 
 <div align="center">
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)
 
 
-**Plataforma de aprendizaje matemático y herramientas avanzadas construida con Flutter y Firebase.**
+**Math learning platform and advanced tools built with Flutter and Firebase.**
 
-[Ver Demo en Vivo](https://mathtools-psy.netlify.app/)
+[See Live Demo](https://mathtools-psy.netlify.app/)
 
-[![Invitame un cafe](https://img.shields.io/badge/Invitame_un_cafe-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/gabcupe)
+[![Buy me a coffee](https://img.shields.io/badge/Buy_me_a_coffe-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/gabcupe)
 
 </div>
 
 ---
 
-## Vista Previa del Sistema
+## System Preview
 
-| Panel Principal | Graficadora de Funciones | Calculadora Cientifica |
+| Main Panel | Function Grapher | Scientific Calculator |
 | :---: | :---: | :---: |
 | ![Dashboard](https://i.ibb.co/3Ymw1vx1/image.png) | ![Grapher](https://i.ibb.co/FqLMB5TR/image.png) | ![Calculator](https://i.ibb.co/67f9FhQ2/image.pngt) |
 
-| Sistema de Ejercicios | Perfil y Logros | Modo Oscuro |
+| Exercise System | Profile and Achievements | Dark Mode |
 | :---: | :---: | :---: |
-| ![Exercises](https://i.ibb.co/MHyhxyx/image.png) | ![Profile](https://i.ibb.co/ccq17S4C/image.png) | ![DarkMode](https://i.ibb.co/xK0m5MSY/image.png) |
+| ![exercises](https://i.ibb.co/MHyhxyx/image.png) | ![Profile](https://i.ibb.co/ccq17S4C/image.png) | ![DarkMode](https://i.ibb.co/xK0m5MSY/image.png) |
 
 ---
 
-## Caracteristicas Detalladas
+## Detailed Features
 
-### Herramientas Matematicas
-* **Calculadora Cientifica:** Funciones trigonometricas (seno, coseno, tangente e inversas), logaritmos, factoriales mediante funcion Gamma, potencias, raices y modulo.
-* **Graficadora 2D:** Plotter interactivo con soporte para multiples funciones simultaneas, zoom, desplazamiento y parseo de multiplicacion implicita.
-* **Conversor de Unidades:** Soporte para Longitud, Masa, Temperatura, Tiempo y Divisas con actualizacion de tasas de cambio en tiempo real.
+### Mathematical Tools
+* **Scientific Calculator:** Trigonometric functions (sine, cosine, tangent and inverses), logarithms, factorials using Gamma function, powers, roots and module.
+* **2D Plotter:** Interactive plotter with support for multiple simultaneous functions, zoom, scrolling and implicit multiplication parsing.
+* **Unit Converter:** Support for Length, Mass, Temperature, Time and Currencies with real-time exchange rate updates.
 
-### Sistema Educativo Gamificado
-* **Modo de Ejercicios:** Sesiones personalizables por tema y dificultad (Facil, Medio, Dificil, Experto) con sistema de penalizacion por errores.
-* **Reto Diario:** Problema matematico unico cada 24 horas con recompensas especiales de puntaje.
-* **Gestion de Perfil:** Personalizacion de avatar, estadisticas de rendimiento y sistema de rangos (Novato, Aprendiz, Experto, Maestro, Leyenda).
+### Gamified Educational System
+* **Exercise Mode:** Customizable sessions by topic and difficulty (Easy, Medium, Difficult, Expert) with a penalty system for errors.
+* **Daily Challenge:** Unique math problem every 24 hours with special score rewards.
+* **Profile Management:** Avatar customization, performance statistics and rank system (Novice, Apprentice, Expert, Master, Legend).
 
-### Panel de Administracion
-* Control de usuarios registrados.
-* Editor de retos diarios.
-* Creador y gestor de bancos de ejercicios por categorias.
+### Administration Panel
+* Control of registered users.
+* Daily challenges editor.
+* Creator and manager of exercise banks by categories.
 
 ---
 
-## Stack Tecnologico
+## Technological Stack
 
 <div align="center">
 
@@ -63,14 +63,14 @@
 
 </div>
 
-* **Estado:** Provider Pattern con ChangeNotifier.
-* **Renderizado:** LaTeX mediante flutter_math_fork.
-* **Animaciones:** Lottie y flutter_animate.
-* **Persistencia:** Shared Preferences para configuraciones locales y temas.
+* **Status:** Provider Pattern with ChangeNotifier.
+* **Rendered:** LaTeX using flutter_math_fork.
+* **Animations:** Lottie and flutter_animate.
+* **Persistence:** Shared Preferences for local settings and themes.
 
 ---
 
-## Arquitectura de Directorios
+## Directory Architecture
 
 ```text
 lib/
@@ -94,16 +94,16 @@ lib/
 
 ---
 
-## Instalacion y Despliegue
+## Installation and Deployment
 
-### Requisitos
+### Requirements
 
-* Flutter SDK v3.11.0 o superior.
-* Cuenta de Firebase con Realtime Database activo.
+* Flutter SDK v3.11.0 or higher.
+* Firebase account with Realtime Database active.
 
-### Instrucciones
+### Instructions
 
-1. **Clonacion del repositorio:**
+1. **Repository cloning:**
 ```bash
 git clone https://github.com/Gab-Cupe/MathTools.git
 cd MathTools
@@ -111,22 +111,22 @@ cd MathTools
 ```
 
 
-2. **Instalacion de paquetes:**
+2. **Package installation:**
 ```bash
 flutter pub get
 
 ```
 
 
-3. **Configuracion de Firebase:**
-Utilice FlutterFire CLI para generar la configuracion automatica:
+3. **Firebase configuration:**
+Use FlutterFire CLI to generate the automatic configuration:
 ```bash
 flutterfire configure
 
 ```
 
 
-4. **Ejecucion:**
+4. **Execution:**
 ```bash
 flutter run
 
@@ -136,20 +136,20 @@ flutter run
 
 ---
 
-## Paleta de Colores Oficial
+## Official Color Palette
 
-| Proposito | Color | Hexadecimal |
+| Purpose | Color | Hexadecimal |
 | --- | --- | --- |
-| Primario |  | `#0924AA` |
-| Secundario |  | `#0380FB` |
+| Primary |  | `#0924AA` |
+| Secondary |  | `#0380FB` |
 | Sky Blue |  | `#A8EFFA` |
 | Accent |  | `#FFCB87` |
 
 ---
 
-## Licencia
+## License
 
-Este proyecto se distribuye como software de codigo abierto. Puede ser utilizado para fines educativos y proyectos personales.
+This project is distributed as open source software. It can be used for educational purposes and personal projects.
 
 ```
 

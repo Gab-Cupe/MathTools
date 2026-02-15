@@ -150,6 +150,10 @@ flutter run
 
 This project is distributed as open source software. It can be used for educational purposes and personal projects.
 
-```
+---
 
-```
+<div align="center">
+
+**Made with ❤️ using flutter**
+
+</div>

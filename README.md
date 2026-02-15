@@ -74,22 +74,21 @@
 
 ```text
 lib/
-├── main.dart             # Configuracion de MultiProvider y Rutas
-├── firebase_options.dart # Configuracion multiplataforma de Firebase
-├── auth/                 # Registro e inicio de sesion
-├── screens/              # Vistas principales del sistema
-├── challenge/            # Logica del Reto Diario
+├── main.dart             # MultiProvider and Routes configuration
+├── firebase_options.dart # Cross-platform Firebase configuration
+├── auth/                 # Registration and login
+├── screens/              # Main system views
+├── challenge/            # Daily Challenge logic
 ├── options/
-│   ├── convertidor/      # Modulo de conversion de unidades
-│   ├── exercises/        # Motor de ejercicios y resultados
-│   ├── explorador/       # Buscador de herramientas
-│   └── graficadora/      # Motor grafico de funciones
-├── perfil/               # Gestion de usuarios y logros
-├── admin/                # Herramientas de gestion de base de datos
-├── models/               # Modelos de datos (User, Exercise, Reto)
-├── services/             # Integracion con Firebase y APIs externas
-└── providers/            # Manejo de estado (ThemeProvider)
-
+│   ├── convertidor/      # Unit conversion module
+│   ├── exercises/        # Exercise engine and results
+│   ├── explorador/       # Tool finder/search
+│   └── graficadora/      # Function graphing engine
+├── perfil/               # User management and achievements
+├── admin/                # Database management tools
+├── models/               # Data models (User, Exercise, Challenge)
+├── services/             # Firebase integration and external APIs
+└── providers/            # State management (ThemeProvider)
 ```
 
 ---
